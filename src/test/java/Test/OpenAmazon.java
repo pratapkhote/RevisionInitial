@@ -16,5 +16,6 @@ public class OpenAmazon {
 	 co.addArguments("--remote-allow-origins=*");
 	 WebDriver driver = new ChromeDriver(co);
 	 driver.get("https://www.amazon.in/");
+	 System.out.println("Amazon site");
   }
 }
